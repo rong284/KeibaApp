@@ -1,6 +1,5 @@
 //
 //  ScrapingResultView.swift
-//  Keiba
 //
 //  Created by rong on 2024/05/24.
 //
