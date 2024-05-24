@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E7A389F92C0053A3005332F8 /* KeibaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A389F82C0053A3005332F8 /* KeibaApp.swift */; };
-		E7A389FB2C0053A3005332F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A389FA2C0053A3005332F8 /* ContentView.swift */; };
+		E7A389FB2C0053A3005332F8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A389FA2C0053A3005332F8 /* HomeView.swift */; };
 		E7A389FD2C0053A5005332F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A389FC2C0053A5005332F8 /* Assets.xcassets */; };
 		E7A38A002C0053A5005332F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A389FF2C0053A5005332F8 /* Preview Assets.xcassets */; };
 		E7A38A0A2C0053A6005332F8 /* KeibaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A38A092C0053A6005332F8 /* KeibaTests.swift */; };
 		E7A38A142C0053A6005332F8 /* KeibaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A38A132C0053A6005332F8 /* KeibaUITests.swift */; };
 		E7A38A162C0053A6005332F8 /* KeibaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A38A152C0053A6005332F8 /* KeibaUITestsLaunchTests.swift */; };
+		E7A38A242C0054B9005332F8 /* RaceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A38A232C0054B9005332F8 /* RaceInfoView.swift */; };
+		E7A38A282C005B62005332F8 /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A38A272C005B62005332F8 /* Web.swift */; };
+		E7A38A2B2C0062EE005332F8 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = E7A38A2A2C0062EE005332F8 /* SwiftSoup */; };
+		E7A38A2E2C006510005332F8 /* ScrapingResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A38A2D2C006510005332F8 /* ScrapingResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		E7A389F52C0053A3005332F8 /* Keiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A389F82C0053A3005332F8 /* KeibaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeibaApp.swift; sourceTree = "<group>"; };
-		E7A389FA2C0053A3005332F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7A389FA2C0053A3005332F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E7A389FC2C0053A5005332F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7A389FF2C0053A5005332F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7A38A052C0053A6005332F8 /* KeibaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeibaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,9 @@
 		E7A38A0F2C0053A6005332F8 /* KeibaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeibaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A38A132C0053A6005332F8 /* KeibaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeibaUITests.swift; sourceTree = "<group>"; };
 		E7A38A152C0053A6005332F8 /* KeibaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeibaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7A38A232C0054B9005332F8 /* RaceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceInfoView.swift; sourceTree = "<group>"; };
+		E7A38A272C005B62005332F8 /* Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		E7A38A2D2C006510005332F8 /* ScrapingResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapingResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A38A2B2C0062EE005332F8 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				E7A389F82C0053A3005332F8 /* KeibaApp.swift */,
-				E7A389FA2C0053A3005332F8 /* ContentView.swift */,
+				E7A389FA2C0053A3005332F8 /* HomeView.swift */,
+				E7A38A222C0053DC005332F8 /* RaceView */,
 				E7A389FC2C0053A5005332F8 /* Assets.xcassets */,
 				E7A389FE2C0053A5005332F8 /* Preview Content */,
 			);
@@ -127,6 +136,24 @@
 			path = KeibaUITests;
 			sourceTree = "<group>";
 		};
+		E7A38A222C0053DC005332F8 /* RaceView */ = {
+			isa = PBXGroup;
+			children = (
+				E7A38A232C0054B9005332F8 /* RaceInfoView.swift */,
+				E7A38A272C005B62005332F8 /* Web.swift */,
+				E7A38A2C2C0064CA005332F8 /* Analysis */,
+			);
+			path = RaceView;
+			sourceTree = "<group>";
+		};
+		E7A38A2C2C0064CA005332F8 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				E7A38A2D2C006510005332F8 /* ScrapingResultView.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +170,9 @@
 			dependencies = (
 			);
 			name = Keiba;
+			packageProductDependencies = (
+				E7A38A2A2C0062EE005332F8 /* SwiftSoup */,
+			);
 			productName = Keiba;
 			productReference = E7A389F52C0053A3005332F8 /* Keiba.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +245,9 @@
 				Base,
 			);
 			mainGroup = E7A389EC2C0053A3005332F8;
+			packageReferences = (
+				E7A38A292C0062EE005332F8 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = E7A389F62C0053A3005332F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7A389FB2C0053A3005332F8 /* ContentView.swift in Sources */,
+				E7A38A2E2C006510005332F8 /* ScrapingResultView.swift in Sources */,
+				E7A389FB2C0053A3005332F8 /* HomeView.swift in Sources */,
 				E7A389F92C0053A3005332F8 /* KeibaApp.swift in Sources */,
+				E7A38A282C005B62005332F8 /* Web.swift in Sources */,
+				E7A38A242C0054B9005332F8 /* RaceInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +624,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E7A38A292C0062EE005332F8 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7A38A2A2C0062EE005332F8 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E7A38A292C0062EE005332F8 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E7A389ED2C0053A3005332F8 /* Project object */;
 }
