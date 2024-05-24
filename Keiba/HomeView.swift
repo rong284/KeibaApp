@@ -3,6 +3,7 @@
 // レース情報(netkeiba.com)と収支計算への移動が可能
 // Created by rong on 2024/05/24.
 //
+//
 
 import SwiftUI
 
